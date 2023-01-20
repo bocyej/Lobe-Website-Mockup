@@ -13,12 +13,18 @@ ul{
     list-style: none;
 }
 
+/* Site Navbar */
 .navbar{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    top: 0;
     align-items: center;
-    height: 10vh;
-    background-color: #fff;
+    justify-content: center;
+    height: 80px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
 }
 
 .nav-logo{
@@ -32,14 +38,17 @@ ul{
 
 .list{
     display: flex;
-    justify-content: space-between;
 }
 
 .list-items a{
     color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 0.9em;
+    font-family: Helvetica;
+    font-size: 18;
+    font-weight: 500;
     text-decoration: none;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* .list-items a:hover{
@@ -49,8 +58,9 @@ ul{
 .nav-button{
     background-color: #04ddb2;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 700;
     border: none;
     padding: 0.7em 1em;
     margin: 1em;
@@ -59,9 +69,10 @@ ul{
     display: inline-block;
 }
 
+/* Site Body */
 .intro{
     color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
     text-align: center;
@@ -71,15 +82,15 @@ ul{
 
 .intro-secondcolor{
     color: #04ddb2;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
 }
 
 .intro-description{
     color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 21px;
+    font-family: Helvetica;
+    font-size: 32px;
     text-align: center;
     margin-bottom: 0.5em;
 }
@@ -99,13 +110,76 @@ ul{
 .download-button{
     background-color: #04ddb2;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 700;
     border: none;
-    padding: 0.7em 1em;
+    padding: 0.7em 1.5em;
     margin: 0;
     border-radius: 50px;
     text-align: center;
     display: inline-block;
     align-items: center;
+}
+
+.divider{
+    border-top: 1px solid #bbb;
+    width: 75%;
+    margin: auto;
+}
+
+/* Site Footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: static;
+    margin-top: 50px;
+}
+
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.fmenu-column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+}
+
+.fmenu-items{
+    color: #333;
+    font-family: Helvetica;
+    font-size: 12;
+    font-weight: 500;
+    text-decoration: none;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.fmenu-items a{
+    color: #333;
+    font-family: Helvetica;
+    font-size: 12;
+    font-weight: 500;
+    text-decoration: none;
+    align-items: center;
+}
+
+.fmenu-items-main{
+    color: #333;
+    font-family: Helvetica;
+    font-size: 12;
+    font-weight: 700;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 20px;
 }
