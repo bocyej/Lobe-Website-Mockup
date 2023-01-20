@@ -13,6 +13,10 @@ ul{
     list-style: none;
 }
 
+br{
+    margin: 5em;
+}
+
 /* Site Navbar */
 .navbar{
     display: flex;
@@ -21,34 +25,37 @@ ul{
     top: 0;
     align-items: center;
     justify-content: center;
-    height: 80px;
-    backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.9);
+    height: 85px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
 }
 
 .nav-logo{
-    padding-left: 2em;
+    width: 80px;
+    margin-right: 7em;
 }
 
 .nav-menu{
-    width: 45%;
+    width: 50%;
     margin-left: 8.5em;
 }
 
 .list{
     display: flex;
+    justify-content: center;
 }
 
 .list-items a{
     color: #333;
     font-family: Helvetica;
-    font-size: 18;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* .list-items a:hover{
@@ -62,8 +69,8 @@ ul{
     font-size: 18px;
     font-weight: 700;
     border: none;
-    padding: 0.7em 1em;
-    margin: 1em;
+    padding: 0.8em 1.25em;
+    margin-left: 12em;
     border-radius: 50px;
     text-align: center;
     display: inline-block;
@@ -74,10 +81,12 @@ ul{
     color: #333;
     font-family: Helvetica;
     font-size: 75px;
-    font-weight: bold;
+    font-weight: 700;
     text-align: center;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+    /* padding-bottom: 2em; */
+    margin-top: 2em;
+    margin-bottom: 0.3em;
+    border: 1px solid black;
 }
 
 .intro-secondcolor{
@@ -85,6 +94,7 @@ ul{
     font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 .intro-description{
@@ -92,13 +102,18 @@ ul{
     font-family: Helvetica;
     font-size: 32px;
     text-align: center;
-    margin-bottom: 0.5em;
+    margin-bottom: 16px;
 }
 
 .video{
-    text-align: center;
-    margin-top: 5em;
+    justify-content: center;
+    display: block;
+    margin-top: 4.5em;
     margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 60%;
 }
 
 .center{
@@ -114,8 +129,11 @@ ul{
     font-size: 24px;
     font-weight: 700;
     border: none;
-    padding: 0.7em 1.5em;
-    margin: 0;
+    padding: 0.7em 1.7em;
+    margin-top: 1.3em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2em;
     border-radius: 50px;
     text-align: center;
     display: inline-block;
@@ -125,7 +143,9 @@ ul{
 .divider{
     border-top: 1px solid #bbb;
     width: 75%;
-    margin: auto;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Site Footer */
@@ -139,6 +159,11 @@ ul{
     height: 200px;
     position: static;
     margin-top: 50px;
+}
+
+.footer-logo{
+    width: 70px;
+    margin-bottom: 25px;
 }
 
 .footer-menu{
