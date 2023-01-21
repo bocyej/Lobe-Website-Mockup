@@ -48,7 +48,7 @@ br{
 }
 
 .list-items a{
-    color: #333;
+    color: #767676;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 500;
@@ -58,11 +58,13 @@ br{
     padding-left: 30px;
     padding-right: 30px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
-/* .list-items a:hover{
-
-} */
+.list-items a:hover{
+    color: #333;
+    font-size: 19px;
+}
 
 .nav-button{
     background-color: #04ddb2;
@@ -77,6 +79,11 @@ br{
     text-align: center;
     display: inline-block;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-button:hover{
+    transform: scale(1.1);
 }
 
 /* Site Body */
@@ -118,6 +125,13 @@ br{
     border-radius: 25px;
     width: 60%;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.video:hover{
+    width: 61%;
+    box-shadow: 0px 50px 100px 10px rgba(0, 0, 0, 0.15);
+    /* box-shadow: horizontal, vertical, blur, spread */
 }
 
 .center{
@@ -143,6 +157,12 @@ br{
     display: inline-block;
     align-items: center;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.download-button:hover{
+    font-size: 25px;
+    padding: 0.75em 1.75em;
 }
 
 .divider{
@@ -188,7 +208,7 @@ br{
 .fmenu-items{
     color: #333;
     font-family: Helvetica;
-    font-size: 12;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     align-items: center;
@@ -200,11 +220,17 @@ br{
 .fmenu-items a{
     color: #333;
     font-family: Helvetica;
-    font-size: 12;
+    font-size: 20px;
     font-weight: 500;
     text-decoration: none;
     align-items: center;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.fmenu-items a:hover{
+    font-size: 21px;
+    color: #333;
 }
 
 .fmenu-items-main{
@@ -240,6 +266,7 @@ br{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .fsocials-reddit:hover{
@@ -256,6 +283,7 @@ br{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .fsocials-twitter:hover{
@@ -271,6 +299,7 @@ br{
     width: 40px;
     height: 40px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .fsocials-youtube:hover{
