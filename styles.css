@@ -34,6 +34,7 @@ br{
 .nav-logo{
     width: 80px;
     margin-right: 7em;
+    cursor: pointer;
 }
 
 .nav-menu{
@@ -56,6 +57,7 @@ br{
     justify-content: center;
     padding-left: 30px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 /* .list-items a:hover{
@@ -74,6 +76,7 @@ br{
     border-radius: 50px;
     text-align: center;
     display: inline-block;
+    cursor: pointer;
 }
 
 /* Site Body */
@@ -83,10 +86,9 @@ br{
     font-size: 75px;
     font-weight: 700;
     text-align: center;
-    /* padding-bottom: 2em; */
     margin-top: 2em;
     margin-bottom: 0.3em;
-    border: 1px solid black;
+    cursor: default;
 }
 
 .intro-secondcolor{
@@ -94,7 +96,7 @@ br{
     font-family: Helvetica;
     font-size: 75px;
     font-weight: bold;
-    border: 1px solid black;
+    cursor: default;
 }
 
 .intro-description{
@@ -103,6 +105,7 @@ br{
     font-size: 32px;
     text-align: center;
     margin-bottom: 16px;
+    cursor: default;
 }
 
 .video{
@@ -114,6 +117,7 @@ br{
     margin-right: auto;
     border-radius: 25px;
     width: 60%;
+    cursor: pointer;
 }
 
 .center{
@@ -138,6 +142,7 @@ br{
     text-align: center;
     display: inline-block;
     align-items: center;
+    cursor: pointer;
 }
 
 .divider{
@@ -189,6 +194,7 @@ br{
     align-items: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    cursor: default;
 }
 
 .fmenu-items a{
@@ -198,6 +204,7 @@ br{
     font-weight: 500;
     text-decoration: none;
     align-items: center;
+    cursor: pointer;
 }
 
 .fmenu-items-main{
@@ -208,6 +215,7 @@ br{
     text-decoration: none;
     align-items: center;
     margin-bottom: 20px;
+    cursor: default;
 }
 
 .fmenu-row{
@@ -231,6 +239,11 @@ br{
     padding-top: 5px;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+}
+
+.fsocials-reddit:hover{
+    transform: scale(1.2);
 }
 
 .fsocials-twitter{
@@ -242,6 +255,11 @@ br{
     padding-left: 2px;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+}
+
+.fsocials-twitter:hover{
+    transform: scale(1.2);
 }
 
 .fsocials-youtube{
@@ -252,6 +270,11 @@ br{
     padding-top: 3px;
     width: 40px;
     height: 40px;
+    cursor: pointer;
+}
+
+.fsocials-youtube:hover{
+    transform: scale(1.2);
 }
 
 .fsocials-reddit-icon{
